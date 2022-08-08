@@ -4,7 +4,7 @@ Image Segmentation using Gaussian Mixture Models.
 
 # Files
 
--   `main.py`: The main script that segments a particular image and saves said output.
+-   `main.py`: The main script that segments a particular image and saves the output.
 -   `utils.py`: A utility script dedicated to finding the best value of `components`. See [this section](#optimal-components-value) for more details.
 -   `images`: Some testing images.
 -   `output.png`: Sample output.
@@ -42,4 +42,4 @@ The graph should look something like this.
 
 <img src="example_graph.png" alt="An example graph." width="500"/>
 
-To deduce the best value of `components`, look for the occurrence of any elbows. In the graph above, the elbows occur at `components` = 4 and `components` = 6.
+To deduce the best value of `components`, look for the occurrence of any elbows. In the graph above, the elbows occur at `components` = 4 and at `components` = 6.
